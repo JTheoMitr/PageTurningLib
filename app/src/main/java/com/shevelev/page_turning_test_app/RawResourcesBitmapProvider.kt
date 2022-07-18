@@ -32,7 +32,7 @@ import java.io.InputStream
  * Provides bitmaps from Raw resources of the app
  */
 class RawResourcesBitmapProvider(private val context: Context) : BitmapProvider {
-    private val bitmapIds = listOf(R.raw.p240035, R.raw.p7240031, R.raw.p7240039, R.raw.p8010067, R.raw.p8150085, R.raw.p8150090)
+    private val bitmapIds = listOf(R.raw.pearson_docs_p1, R.raw.pearson_docs_p5, R.raw.pearson_docs_p6, R.raw.pearson_docs_p7, R.raw.pearson_docs_p8, R.raw.p240035, R.raw.p7240031, R.raw.p7240039, R.raw.p8010067, R.raw.p8150085, R.raw.p8150090)
 
     /**
      * Total quantity of bitmap
